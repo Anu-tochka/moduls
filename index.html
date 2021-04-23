@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Datetime superapp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./src/main.js" type="module"></script>
+</head>
+
+<body>
+    <div id="switch">
+         <input type="radio" id="toca1c"  name="switch" value="toca1c">
+         <label for="toca1c">Калькулятор</label>
+
+         <input type="radio" id="totimer"  name="switch" value="totimer">
+         <label for="totimer">Таймер</label>
+    </div>
+
+    <form id="datecalc">
+        <h3>Калькулятор дат</h3>
+        <label>
+            <strong>Первая дата:</strong>
+            <input type="date" name="firstDate" />
+        </label>
+        <label>
+            <strong>Вторая дата:</strong>
+            <input type="date" name="secondDate" />
+        </label>
+        <button type="submit">Рассчитать промежуток</button>
+        <p id="datecalc__result"></p>
+    </form>
+
+    <form id="timer">
+        <h3>Таймер</h3>
+        <label>
+            <strong>Введите количество секунд:</strong>
+            <input type="date" name="firstDate" />
+        </label>
+        
+        <button id="start">Старт</button>
+        <button id="stop">Стоп</button>
+        <p id="timer__result"></p>
+    </form>
+    
+</body>
+
+</html>
