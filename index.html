@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Datetime superapp</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
     <script src="./src/main.js" type="module"></script>
 </head>
 
@@ -37,12 +38,12 @@
         <h3>Таймер</h3>
         <label>
             <strong>Введите количество секунд:</strong>
-            <input type="date" name="firstDate" />
+            <input type="text" name="time" />
         </label>
         
         <button id="start">Старт</button>
         <button id="stop">Стоп</button>
-        <p id="timer__result"></p>
+        <p id="timer__show"></p>
     </form>
     
 </body>
